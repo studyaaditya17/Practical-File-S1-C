@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+void main()
+{
+    int n1,n2,sum,sub,mul;
+    float divi;
+    
+    printf ("Enter Number 1 :- ");
+    scanf ("%d",&n1);
+    
+    printf ("Enter Number 2 :- ");
+    scanf ("%d",&n2);
+    
+    sum=n1+n2;
+    sub=n1-n2;
+    mul=n1*n2;
+    divi=n1/n2;
+    
+    printf("Sum of %d & %d is %d.\n",n1,n2,sum);
+    printf("Subraction of %d & %d is %d.\n",n1,n2,sub);
+    printf("Multiplication of %d & %d is %d.\n",n1,n2,mul);
+    printf("Division of %d & %d is %d.\n",n1,n2,divi);
+}
